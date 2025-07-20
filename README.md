@@ -12,7 +12,7 @@ To design and implement a Bluetooth-based system that allows the user to wireles
  Project Concept:
 This home automation system leverages Bluetooth communication to receive control commands from a mobile phone and uses an Arduino to interpret those commands and trigger relays, which control the connected electrical devices (like a fan, bulb, or TV).
 
-🛠️ Hardware Components:
+ Hardware Components:
 Component	Description
 Arduino UNO/Nano	Main controller that processes commands
 HC-05 Bluetooth Module	Enables wireless communication with phone
@@ -83,5 +83,22 @@ Control lights, fans, or TVs
 
 Elderly or disabled support system
 
-Office and industrial automation (basic)
+Office and industrial automation (basic) 
+ 
+  WORKING DEMO
+Steps:
+
+Upload the Arduino code.
+
+Connect HC-05 and Relay as per circuit.
+
+Power on Arduino.
+
+Pair your phone with HC-05 (1234 or 0000 as password).
+
+Open the app and send 1 → Device turns ON.
+
+Send 0 → Device turns OFF.
+
+
 
