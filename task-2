@@ -1,0 +1,20 @@
+char data = 0; // Variable to receive data
+
+void setup() {
+  Serial.begin(9600);  // Start serial communication at 9600 baud
+  pinMode(8, OUTPUT);  // Relay connected to pin 8
+  digitalWrite(8, LOW); // Initially OFF
+}
+
+void loop() {
+  if (Serial.available()) {
+    data = Serial.read(); // Read Bluetooth data
+
+    if (data == '1') {
+      digitalWrite(8, HIGH);  // Turn ON device
+    }
+    else if (data == '0') {
+      digitalWrite(8, LOW);   // Turn OFF device
+    }
+  }
+}
