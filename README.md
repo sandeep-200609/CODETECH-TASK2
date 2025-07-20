@@ -1,3 +1,9 @@
+Name:SANDEEP S
+Company:CODETECH IT SOLUTIONS
+ID:CT06DG25
+domain:EMBEDDED SYSTEM
+Duration:June 10th toJuly 25th
+
 Project Title:
 Bluetooth-Controlled Home Automation System
  Objective:
